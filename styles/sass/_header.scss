@@ -1,0 +1,32 @@
+@import "mixin";
+
+header{
+    nav{
+        @include nimadir;
+        
+        ul{
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        
+            li{
+                
+                a{
+                    text-decoration: none;
+                    color: #333;
+                    font-family: sans-serif;
+
+                    &:hover{
+                        color: #ffac11;
+                        
+                       
+                    }
+                }
+                
+            }
+        }
+        button{
+            background-color: #FF7143;
+        }
+    }
+}

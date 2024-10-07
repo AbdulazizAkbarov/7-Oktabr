@@ -1,0 +1,16 @@
+.buttons {
+  color: #fff;
+  border: none;
+  padding: 0 30px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.buttons:hover {
+  background-color: #f48c58;
+}
+
+.buttons:active {
+  transform: scale(0.95);
+  transition: 0.3s;
+}

@@ -1,0 +1,11 @@
+@import "header";
+@import "main1";
+@import "footer";
+@import "inheritance";
+@import "mixin";
+
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
